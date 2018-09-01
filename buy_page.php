@@ -2,7 +2,7 @@
 
     session_start();
         
-    $link = mysqli_connect("localhost","root","123456","vastukosh");
+    $link = mysqli_connect("localhost","root","123456","storelot");
 
     if(isset($_POST['logout'])) {
         $_SESSION['name']='';
@@ -22,7 +22,7 @@
         $query2 = "SELECT * FROM `users` WHERE name='".mysqli_real_escape_string($link, $_SESSION['name'])."' AND mobile='".
         mysqli_real_escape_string($link, $_SESSION['mobile'])."'";
         $row2 = mysqli_fetch_assoc(mysqli_query($link, $query2));
-        $cmail = $row2['email'];
+        /*$cmail = $row2['email'];
         $to = $email;
         $subject = 'Someone has shown interest in your product.';
         $message = '
@@ -47,7 +47,7 @@ This is a system generated mail. Please do not reply.
         if(mail($to, $subject, $message, $headers)) {
             echo "<script> alert('Your request has been mailed to the owner. Wait till the owner replies.'); </script>";
             echo "<script> location.href='index.php' </script>";
-        }
+        }*/
     }
 ?>
 
@@ -387,12 +387,12 @@ This is a system generated mail. Please do not reply.
                             <li><a href="#">Buy</a></li>
                             <li><a href="rent_page.php">Rent</a></li>
                         </ul>
-                        <p>Copyright &copy; 2017 <a href="#">Vastu Kosh</a><br>
+                        <p>Copyright &copy; 2018 <a href="#">Storlot Storage</a><br>
                         <a href="">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> for <a href="https://tympanus.net/codrops/">India</a>.</p>
                     </div>
                 </div>
                 <div class="social-share">
-                    <p>Share Vastu Kosh with your friends</p>
+                    <p>Share Storlot Storage with your friends</p>
                     <a href="#" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook-share"><i class="fa fa-facebook"></i></a>
                 </div>
             </div>

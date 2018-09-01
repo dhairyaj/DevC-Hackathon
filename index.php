@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("localhost","root","123456","vastukosh");
+    $link = mysqli_connect("localhost","root","123456","storelot");
 
     //This will delete rent and sell items after 30 days. Don't uncomment it till it goes online.
     $curTime = time();
@@ -113,7 +113,7 @@ This is a system generated mail. Do not reply.
         }
     } 
 
-    if($_SESSION['name']!=''){
+    /*if($_SESSION['name']!=''){
         $query = "SELECT * FROM `users` WHERE name='".mysqli_real_escape_string($link, $_SESSION['name'])."' AND mobile='".
         mysqli_real_escape_string($link, $_SESSION['mobile'])."'";
         $result = mysqli_query($link, $query);
@@ -139,7 +139,7 @@ This is a system generated mail. Do not reply.
         } if(isset($_POST['rent']) AND $row['status']==0) {
             echo "<script> alert('Verify your email first.'); </script>";
         }
-    }
+    }*/
 
     if(isset($_POST['logout'])) {
         $_SESSION['name']='';
@@ -738,7 +738,6 @@ This is a system generated mail. Please do not reply.
     </section>
     <!--Give It Away ends here-->
 
-
     <!--About-->
     <section class="features-extra section-padding" id="about" style="background-color: #E1E1E1;">
         <div class="container">
@@ -787,7 +786,7 @@ This is a system generated mail. Please do not reply.
                             <li><a href="buy_page.php">Buy</a></li>
                             <li><a href="rent_page.php">Rent</a></li>
                         </ul>
-                        <p>Copyright &copy; 2017 <a href="#">Storlot Storage</a><br>
+                        <p>Copyright &copy; 2018 <a href="#">Storlot Storage</a><br>
                         <a href="">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> for <a href="https://tympanus.net/codrops/">India</a>.</p>
                     </div>
                 </div>
@@ -811,7 +810,7 @@ This is a system generated mail. Please do not reply.
     <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-
+        
         $("#forgot").click(function() {
             $("#f_pwd").css("display","block");
             $("#log").css("display","block");

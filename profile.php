@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("localhost","root","123456","vastukosh");
+    $link = mysqli_connect("localhost","root","123456","storelot");
     $query = "SELECT * FROM `users` WHERE name= '".mysqli_real_escape_string($link, $_SESSION['name'])."' AND mobile='".
     mysqli_real_escape_string($link, $_SESSION['mobile'])."'";
       
@@ -209,7 +209,7 @@
             if(isset($row)) {
                 echo "<p class='user' style='text-align: right;'><button class='edit' name='edit'><i class='fa fa-pencil'></i></button>&nbsp;&nbsp;Edit Profile</p>";
                 if($row['idno']=='') {
-                    echo "<p>Verify your identification and start using Vastu Kosh <i class='fa fa-hand-o-right'></i><a href='verification.php'>
+                    echo "<p>Verify your identification and start using Storelot Storage <i class='fa fa-hand-o-right'></i><a href='verification.php'>
                     VERIFICATION</a></p>";
                 }
                 echo "<p class='user'><strong>Name</strong>: ".$row['name']."</p>";
@@ -327,12 +327,12 @@
                             <li><a href="#">Buy</a></li>
                             <li><a href="rent_page.php">Rent</a></li>
                         </ul>
-                        <p>Copyright &copy; 2017 <a href="#">Vastu Kosh</a><br>
+                        <p>Copyright &copy; 2018 <a href="#">Storelot Storage</a><br>
                         <a href="">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> for <a href="https://tympanus.net/codrops/">India</a>.</p>
                     </div>
                 </div>
                 <div class="social-share">
-                    <p>Share Vastu Kosh with your friends</p>
+                    <p>Share Storelot Storage with your friends</p>
                     <a href="#" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook-share"><i class="fa fa-facebook"></i></a>
                 </div>
             </div>

@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("localhost","root","123456","vastukosh");
+    $link = mysqli_connect("localhost","root","123456","storelot");
 
     if(isset($_POST['logout'])) {
         $_SESSION['name']='';
@@ -15,13 +15,13 @@
         $result = mysqli_query($link, $query);
         $row = mysqli_fetch_assoc($result);
         $status = $row['status'];
-        if($status==0) {
+        /*if($status==0) {
             echo "<div style='text-align: center; font-size: 150%; background-color: #ffcccc; font-weight: none;'><span 
             style='color: black;'>Verify Your Email Address</span></div>";
         }
         if(isset($_POST['locker']) AND $row['status']==0) {
             echo "<script> alert('Verify your email first.'); </script>";
-        }
+        }*/
     }
 
     if(isset($_POST['buy'])) {
@@ -218,12 +218,12 @@
                             <li><a href="buy_page.html">Buy</a></li>
                             <li><a href="rent_page.html">Rent</a></li>
                         </ul>
-                        <p>Copyright &copy; 2017 <a href="#">Vastu Kosh</a><br>
+                        <p>Copyright &copy; 2018 <a href="#">Storlot Storage</a><br>
                         <a href="">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> for <a href="https://tympanus.net/codrops/">India</a>.</p>
                     </div>
                 </div>
                 <div class="social-share">
-                    <p>Share Vastu Kosh with your friends</p>
+                    <p>Share Storlot Storage with your friends</p>
                     <a href="#" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook-share"><i class="fa fa-facebook"></i></a>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 <?php
 
-    $link = mysqli_connect("localhost","root","123456","vastukosh");
+    $link = mysqli_connect("localhost","root","123456","storelot");
     if($_GET['stat']==1) {
         $query = "SELECT * FROM `items` WHERE iid='".mysqli_real_escape_string($link, $_GET['iid'])."' AND `sell` = 1";
         $row = mysqli_fetch_assoc(mysqli_query($link, $query));
@@ -25,7 +25,7 @@ The item will reach as soon as possible.
 
 This is a system generated mail. Please do not reply. 
     ';
-    $headers = 'From:noreply@vastukosh.com' . "\r\n"; 
+    $headers = 'From:noreply@StorlotStorage.com' . "\r\n"; 
     if(mail($to, $subject, $message, $headers)) {
         echo "<script> alert('Mail sent successfully to customer.'); </script>";
         echo "<script> location.href='index.php' </script>";
