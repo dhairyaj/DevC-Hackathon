@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("localhost","root","123456","storelot");
+    $link = mysqli_connect("localhost","root","","vastukosh");
 
     //This will delete rent and sell items after 30 days. Don't uncomment it till it goes online.
     $curTime = time();
@@ -425,18 +425,18 @@ This is a system generated mail. Please do not reply.
         <section class="navigation">
             <header>
                 <div class="header-content">
-                    <div class="logo"><a href="#"><img src="img/sedna-logo.png" alt="Sedna logo"></a></div>
+                    <div class="logo"><a href="#"><img src="logo.png" height="100px" width="200px" alt="Sedna logo"></a></div>
                     <div class="header-nav">
                         <nav>
                             <form method="post">
                             <ul class="primary-nav">
-                                <li><a href="#locker">Locker</a></li>
-                                <li><a href="#rent_it_out">Rent It Out</a></li>
-                                <li><a href="#sell">Sell</a></li>
-                                <li><a href="#give_it_away">Give It Away</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><button class="nav-but" name="buy"><span class="but-text-nav">BUY</span></button></li>
-                                <li><button class="nav-but" name="rent"><span class="but-text-nav">RENT</span></button></li>
+                                <li><a style="font-weight:bold; font-size: 18px;" href="#locker">Locker</a></li>
+                                <li><a style="font-weight:bold; font-size: 18px;" href="#rent_it_out">Rent It Out</a></li>
+                                <li><a style="font-weight:bold; font-size: 18px;" href="#sell">Sell</a></li>
+                                <li><a style="font-weight:bold; font-size: 18px;" href="#give_it_away">Give It Away</a></li>
+                                <li><a style="font-weight:bold; font-size: 18px;" href="#about">About</a></li>
+                                <li><button  class="nav-but" name="buy"><span class="but-text-nav" style="font-weight:bold; font-size: 18px;">BUY</span></button></li>
+                                <li><button class="nav-but" name="rent"><span class="but-text-nav" style="font-weight:bold; font-size: 18px;">RENT</span></button></li>
                             </ul>
                             </form>
                             <ul class="member-actions">
@@ -459,7 +459,7 @@ This is a system generated mail. Please do not reply.
                 <div class="col-md-10 col-md-offset-1">
                     <div class="hero-content text-center">
                         <h1 id="app"></h1>
-                        <span style="color: white; font-size: 150%; font-weight: bold; text-align: center;">SERVICES:&nbsp;</span>
+                        <span style="font-size: 18px; font-weight: bold; text-align: center;">SERVICES:&nbsp;</span>
                         <div class="words words-1">
                             <span>LOCKER</span>
                             <span>RENT</span>
@@ -738,6 +738,7 @@ This is a system generated mail. Please do not reply.
     </section>
     <!--Give It Away ends here-->
 
+
     <!--About-->
     <section class="features-extra section-padding" id="about" style="background-color: #E1E1E1;">
         <div class="container">
@@ -786,7 +787,7 @@ This is a system generated mail. Please do not reply.
                             <li><a href="buy_page.php">Buy</a></li>
                             <li><a href="rent_page.php">Rent</a></li>
                         </ul>
-                        <p>Copyright &copy; 2018 <a href="#">Storlot Storage</a><br>
+                        <p>Copyright &copy; 2017 <a href="#">Storlot Storage</a><br>
                         <a href="">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> for <a href="https://tympanus.net/codrops/">India</a>.</p>
                     </div>
                 </div>
@@ -810,7 +811,7 @@ This is a system generated mail. Please do not reply.
     <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-        
+
         $("#forgot").click(function() {
             $("#f_pwd").css("display","block");
             $("#log").css("display","block");
@@ -822,7 +823,8 @@ This is a system generated mail. Please do not reply.
 
         var typewriter = new Typewriter(app, {
             loop: true,
-            typingSpeed: 250
+            typingSpeed: 250,
+
         });
 
         typewriter.typeString('STORLOT STORAGE')
