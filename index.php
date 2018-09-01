@@ -458,17 +458,16 @@ This is a system generated mail. Please do not reply.
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="hero-content text-center">
-                        <h1 id="app"></h1>
-                        <span style="zfont-size: 18px; font-weight: bold; text-align: center;">SERVICES:&nbsp;</span>
+                        <h1 id="app" style="color: black;"></h1>
+                        <span style="font-size: 18px; font-weight: bold; text-align: center;color: black;">SERVICES:&nbsp;</span>
                         <div class="words words-1">
-                            <span>LOCKER</span>
-                            <span>RENT</span>
-                            <span>SELL</span>
-                            <span>BUY</span>
-                            <span>DONATE</span>
+                            <span style="color: black;">LOCKER</span>
+                            <span style="color: black;">RENT</span>
+                            <span style="color: black;">SELL</span>
+                            <span style="color: black;">BUY</span>
+                            <span style="color: black;">DONATE</span>
                         </div>
-                        <br><br>
-                        <p class="intro">A Bank for Items.</p>
+                        <br><br><br><br><br><br><br><br><br><br>
                         <?php
                             if(empty($_SESSION['name'])) {
                                 echo "<button class='bttn-unite bttn-primary myBtn_multi'><span class='but-text'>LOGIN</span></button>";
@@ -558,7 +557,8 @@ This is a system generated mail. Please do not reply.
                             <hr class="modal_hr"> 
                         </div>
                         </div>
-                        <p style="color: white;font-size: 140%;">We value your valuables... Our locks are the key to your freedom.</p>
+                        <br><br><br><br>
+                        <p style="color: black;font-size: 140%;font-weight: bold;">We value your valuables... Our locks are the key to your freedom.</p>
                         <p style="color: white;font-size: 140%;"></p>
                         <!--<p style="color: white;font-size: 140%;">Get it on -></p>
                         <a href="#"><img src="img/play_store.png" style="height: 50px;" ></a>
@@ -746,15 +746,15 @@ This is a system generated mail. Please do not reply.
                 <div>
                     <div class="feature-list">
                         <br><br><br>
-                        <h3 style="text-align: center;">ABOUT</h3><br><br>
-                        <p style="text-align: justify;">It is a platform made by students of SRM University, Chennai. It aims to solve the issue of people residing in flats generally face.
+                        <h3 style="text-align: center;font-weight: bolder;">ABOUT</h3><br><br>
+                        <p style="text-align: justify;font-weight: bold;">It is a platform made by students of SRM University, Chennai. It aims to solve the issue of people residing in flats generally face.
                             Flats are often too small to accomodate our belongings and some things may be close to our heart, our sentiments are attached to them.
                             It aches our heart to just discard them away.</p>
-                        <p style="text-align: justify;">So, presenting an idea that would increase the space in your home for new items and preserve the items you love in safe and secure lockers.
+                        <p style="text-align: justify;font-weight: bold;">So, presenting an idea that would increase the space in your home for new items and preserve the items you love in safe and secure lockers.
                             Vastu Kosh provides the customers with four options: Storing items in secure lockers, Giving your items to orphanages or old age homes,
                             Sell your items and Rent them for some time.</p>
-                        <p style="text-align: justify;">We ensure delivery and pick up so that you don&#39;t have to travel to keep your products safe.</p>
-                        <p style="text-align: justify;">With our highly specific databases you can find out which products you have trusted us with.</p>  
+                        <p style="text-align: justify;font-weight: bold;">We ensure delivery and pick up so that you don&#39;t have to travel to keep your products safe.</p>
+                        <p style="text-align: justify;font-weight: bold;">With our highly specific databases you can find out which products you have trusted us with.</p>  
                         <br><br>
                     </div>
                 </div>
