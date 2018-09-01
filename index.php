@@ -425,7 +425,7 @@ This is a system generated mail. Please do not reply.
         <section class="navigation">
             <header>
                 <div class="header-content">
-                    <div class="logo"><a href="#"><img src="logo.png" height="100px" width="200px" alt="Sedna logo"></a></div>
+                    <div class="logo"><a href="#"><img src="logo.png" height="75px" width="195px" alt="Sedna logo"></a></div>
                     <div class="header-nav">
                         <nav>
                             <form method="post">
@@ -459,7 +459,7 @@ This is a system generated mail. Please do not reply.
                 <div class="col-md-10 col-md-offset-1">
                     <div class="hero-content text-center">
                         <h1 id="app"></h1>
-                        <span style="font-size: 18px; font-weight: bold; text-align: center;">SERVICES:&nbsp;</span>
+                        <span style="zfont-size: 18px; font-weight: bold; text-align: center;">SERVICES:&nbsp;</span>
                         <div class="words words-1">
                             <span>LOCKER</span>
                             <span>RENT</span>
