@@ -39,11 +39,11 @@ Your Price: '.$row['price'].'
 
 If you want to accept the proposal then click the following link:- 
 
-http://jncpasighat-com.stackstaging.com/vastuKosh/confirm.php?iid='.$_POST['interest'].'&cmail='.$cmail.'&price='.$_POST['oprice'].'&stat=1'.'
+http://jncpasighat-com.stackstaging.com/StorlotStorage/confirm.php?iid='.$_POST['interest'].'&cmail='.$cmail.'&price='.$_POST['oprice'].'&stat=1'.'
 
 This is a system generated mail. Please do not reply. 
         ';
-        $headers = 'From:noreply@vastukosh.com' . "\r\n"; 
+        $headers = 'From:noreply@StorlotStorage.com' . "\r\n"; 
         if(mail($to, $subject, $message, $headers)) {
             echo "<script> alert('Your request has been mailed to the owner. Wait till the owner replies.'); </script>";
             echo "<script> location.href='index.php' </script>";

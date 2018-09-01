@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("localhost","root","","vastukosh");
+    $link = mysqli_connect("localhost","root","123456","storelot");
 
     //This will delete rent and sell items after 30 days. Don't uncomment it till it goes online.
     $curTime = time();
@@ -75,11 +75,11 @@ Password: '.$password.'
 ------------------------
 
 Please click this link to activate your account:
-http://jncpasighat-com.stackstaging.com/vastuKosh/verify.php?email='.$mail.'
+http://jncpasighat-com.stackstaging.com/StorlotStorage/verify.php?email='.$mail.'
 
 This is a system generated mail. Do not reply. 
                 ';
-                $headers = 'From:noreply@vastukosh.com' . "\r\n"; 
+                $headers = 'From:noreply@StorelotStorage.com' . "\r\n"; 
                 mail($to, $subject, $message, $headers);
                 $_SESSION['name']=$_POST['signName'];
                 $_SESSION['mobile']=$_POST['signMobile'];*/
@@ -248,7 +248,7 @@ This is a system generated mail. Do not reply.
         }
     }
 
-    if(isset($_POST['fpwd'])) {
+    /*if(isset($_POST['fpwd'])) {
         if($_POST['myEmail'] != "") {
             $mail = mysqli_real_escape_string($link, $_POST['myEmail']);
             $query = "SELECT `id` FROM `users` WHERE email ='$mail'";
@@ -257,18 +257,18 @@ This is a system generated mail. Do not reply.
                 $subject = "Forgot Password";
                 $message = '
 Follow this link to reset your password:
-http://jncpasighat-com.stackstaging.com/vastuKosh/forgot.php?email='.$mail.'
+http://jncpasighat-com.stackstaging.com/StorlotStorage/forgot.php?email='.$mail.'
 
 This is a system generated mail. Please do not reply.
                 ';
-                $headers = 'From:noreply@vastukosh.com' . "\r\n"; 
+                $headers = 'From:noreply@StorlotStorage.com' . "\r\n"; 
                 if(mail($to, $subject, $message, $headers)) {
                     echo "<script> alert('Check your mail to reset password.'); </script>";
                     echo "<script> location.href='index.php' </script>";
                 }
             }
         }
-    }
+    }*/
 
 ?>
 
@@ -629,9 +629,9 @@ This is a system generated mail. Please do not reply.
                     <div style="text-align: left;">
                         <p style="color: #FFFFBA;"><i class="fa fa-hand-o-right" style="font-size: 20px;"></i>&nbsp;Hassle Free Locker Service</p>
                         <br>
-                        <p style="color: #FFFFBA;"><i class="fa fa-hand-o-right" style="font-size: 20px;"></i>&nbsp;Vastu Kosh lockers will be located at locations near you.</p>
+                        <p style="color: #FFFFBA;"><i class="fa fa-hand-o-right" style="font-size: 20px;"></i>&nbsp;Storlot Storage lockers will be located at locations near you.</p>
                         <br>
-                        <p style="color: #FFFFBA;"><i class="fa fa-hand-o-right" style="font-size: 20px;"></i>&nbsp;If you want anything to put in your locker Vastu Pickers will pick them up from your door step.</p>
+                        <p style="color: #FFFFBA;"><i class="fa fa-hand-o-right" style="font-size: 20px;"></i>&nbsp;If you want anything to put in your locker Storlot Pickers will pick them up from your door step.</p>
                         <br>
                         <p style="color: #FFFFBA;"><i class="fa fa-hand-o-right" style="font-size: 20px;"></i>&nbsp;Your things will be delivered to your doorstep whenever you want them.</p>
                         <br>
@@ -667,7 +667,7 @@ This is a system generated mail. Please do not reply.
                         <br>
                         <p style="color: #FFFFBA;"><i class="fa fa-hand-o-right" style="font-size: 20px;"></i>&nbsp;Contact the person directly through the website or app and make sure you give your things to the right person.</p>
                         <br>
-                        <p style="color: #FFFFBA;"><i class="fa fa-hand-o-right" style="font-size: 20px;"></i>&nbsp;Vastu Kosh will make sure you get your monthly rent on time everytime.</p>
+                        <p style="color: #FFFFBA;"><i class="fa fa-hand-o-right" style="font-size: 20px;"></i>&nbsp;Storlot Storage will make sure you get your monthly rent on time everytime.</p>
                     </div>
                     <br><br><br>
                     <div style="text-align: center;">
@@ -751,7 +751,7 @@ This is a system generated mail. Please do not reply.
                             Flats are often too small to accomodate our belongings and some things may be close to our heart, our sentiments are attached to them.
                             It aches our heart to just discard them away.</p>
                         <p style="text-align: justify;font-weight: bold;">So, presenting an idea that would increase the space in your home for new items and preserve the items you love in safe and secure lockers.
-                            Vastu Kosh provides the customers with four options: Storing items in secure lockers, Giving your items to orphanages or old age homes,
+                            Storlot Storage provides the customers with four options: Storing items in secure lockers, Giving your items to orphanages or old age homes,
                             Sell your items and Rent them for some time.</p>
                         <p style="text-align: justify;font-weight: bold;">We ensure delivery and pick up so that you don&#39;t have to travel to keep your products safe.</p>
                         <p style="text-align: justify;font-weight: bold;">With our highly specific databases you can find out which products you have trusted us with.</p>  
@@ -787,7 +787,7 @@ This is a system generated mail. Please do not reply.
                             <li><a href="buy_page.php">Buy</a></li>
                             <li><a href="rent_page.php">Rent</a></li>
                         </ul>
-                        <p>Copyright &copy; 2017 <a href="#">Storlot Storage</a><br>
+                        <p>Copyright &copy; 2018 <a href="#">Storlot Storage</a><br>
                         <a href="">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> for <a href="https://tympanus.net/codrops/">India</a>.</p>
                     </div>
                 </div>
