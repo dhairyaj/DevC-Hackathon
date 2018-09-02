@@ -149,7 +149,7 @@ This is a system generated mail. Please do not reply.
         <section class="navigation">
             <header>
                 <div class="header-content">
-                    <div class="logo"><a href="index.php"><img src="img/sedna-logo.png" alt="Sedna logo"></a></div>
+                    <div class="logo"><a href="#"><img src="logo.png" height="75px" width="195px" alt="Sedna logo"></a></div>
                     <div class="header-nav">
                         <nav>
                         <form method="post">
@@ -287,7 +287,7 @@ This is a system generated mail. Please do not reply.
                     echo "<div class='thumbnail'>";
                     echo "<div class='caption'>";
                     echo '<img src="img/items/' . $row['iimage'] . '" width="241" height="200" alt="No Image"><br><br>';
-                    echo "<h3 style='font-weight: bold;'>".$row['oname']."</h3>";
+                    echo "<h3 style='font-weight: bold;'>".$row['iname']."</h3>";
                     echo "<div class='card' style='padding-left: 10px; padding-top: 10px;'>";
                     echo "<span style='font-size: 150%; color: black; font-weight: 500;'>Item Price: <span class='disp'>₹".$row['price']."</span></span><br>";
                     echo "<span style='font-size: 150%; color: black; font-weight: 500;'>Item Name: <span class='disp'>".$row['iname']."</span></span><br>";

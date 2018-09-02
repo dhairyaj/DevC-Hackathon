@@ -80,22 +80,22 @@
     <div class="jumbotron" style="margin-bottom: 0;">
         <h2 style="text-align: center;"><strong><em><u>TERMS AND CONDITIONS</u></em></strong></h2><br>
         <div>
-            <p style="text-align: center; font-size: 150%; font-weight: bold;">Storelot Storage Terms of Service (“Agreement”)</p>
+            <p style="text-align: center; font-size: 150%; font-weight: bold;">Storlot Storage Terms of Service (“Agreement”)</p>
             <p style="font-size: 150%;"><em>This Agreement was last modified on September 1, 2018.</em></p>
-            <p style="font-size: 150%;">Please read these Terms of Service completely, using this website which is owned and operated by Storelot Storage. This Agreement documents the legally binding terms and conditions attached to the use of this website.<br><br>
+            <p style="font-size: 150%;">Please read these Terms of Service completely, using this website which is owned and operated by Storlot Storage. This Agreement documents the legally binding terms and conditions attached to the use of this website.<br><br>
             By using or accessing the Site in any way, viewing or browsing the Site, creating account or using the services, you are agreeing to be bound by these Terms of Service.</p>
             <p style="font-size: 150%; font-weight: bold;"><u>Storing Items</u></p>
-            <p style="font-size: 150%;">In case any illegal items are found contained in the articles then Storelot Storage cannot be held responsible for those items, those articles will be discarded, a police report will be filed against the owner and his/her account will be suspended immediately for an indefinite period of time.</p>
+            <p style="font-size: 150%;">In case any illegal items are found contained in the articles then Storlot Storage cannot be held responsible for those items, those articles will be discarded, a police report will be filed against the owner and his/her account will be suspended immediately for an indefinite period of time.</p>
             <p style="font-size: 150%; font-weight: bold;"><u>Pricing</u></p>
             <p style="font-size: 150%;">The pricing of the items will be based upon their material and the amount of space they will consume in the locker. Every item will be insured with a small amount of money paid by the customer.</p>
             <p style="font-size: 150%; font-weight: bold;"><u>Insurance</u></p>
             <p style="font-size: 150%;">In case of any damage to the item, or theft of the item the customers can claim insurance amount that they pay for storing the items in the locker. Customer cannot claim more amount of money than the insurance amount.</p> 
             <p style="font-size: 150%; font-weight: bold;"><u>Termination</u></p>
-            <p style="font-size: 150%;">Storelot Storage reserves the right to terminate your access to the Site, without any advance notice if any illegal item is found inside the articles stored in our lockers.</p>
+            <p style="font-size: 150%;">Storlot Storage reserves the right to terminate your access to the Site, without any advance notice if any illegal item is found inside the articles stored in our lockers.</p>
             <p style="font-size: 150%; font-weight: bold;"><u>Return/Refund Policy</u></p>
-            <p style="font-size: 150%;">Once a user buys any article from another user through Storelot Storage, he/she will not be able to return the item claiming that the article does not match the specifications or is defective. We will send items to be sold only after we verify its condition and genuineness.</p>
+            <p style="font-size: 150%;">Once a user buys any article from another user through Storlot Storage, he/she will not be able to return the item claiming that the article does not match the specifications or is defective. We will send items to be sold only after we verify its condition and genuineness.</p>
             <p style="font-size: 150%; font-weight: bold;"><u>Changes to this Agreement</u></p>
-            <p style="font-size: 150%;">Storelot Storage reserves the right to modify these terms of service at any time. We do so by posting and drawing attention to the updated terms on the site. Your decision to continue to visit and make use of the site after such changes have been made constitutes your formal acceptance of the new terms of service. Therefore, we ask that you check and review this agreement for such changes on an occasional basis. Should you not agree to any provision of this agreement or any changes we make to this agreement, we ask and advice that you do not use or continue to access the Storelot Storage site immediately.</p> 
+            <p style="font-size: 150%;">Storlot Storage reserves the right to modify these terms of service at any time. We do so by posting and drawing attention to the updated terms on the site. Your decision to continue to visit and make use of the site after such changes have been made constitutes your formal acceptance of the new terms of service. Therefore, we ask that you check and review this agreement for such changes on an occasional basis. Should you not agree to any provision of this agreement or any changes we make to this agreement, we ask and advice that you do not use or continue to access the Storlot Storage site immediately.</p> 
 
         </div>
     </div>

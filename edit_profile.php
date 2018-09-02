@@ -185,7 +185,7 @@
         <section class="navigation">
             <header>
                 <div class="header-content">
-                    <div class="logo"><a href="index.php"><img src="img/sedna-logo.png" alt="Sedna logo"></a></div>
+                    <div class="logo"><a href="#"><img src="logo.png" height="75px" width="195px" alt="Sedna logo"></a></div>
                     <div class="header-nav">
                         <nav>
                             <form method="post">
